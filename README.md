@@ -1,19 +1,6 @@
 # Leukemia Classification with Qiskit (VQC)
 
-This repository contains the **Qiskit implementation** of our research project:
-**"Evaluating the Data and Feature Efficiency of Variational Quantum Classifiers for Genomic Cancer Diagnostics."**
-
-Our work benchmarks **Quantum Machine Learning (QML)** models—implemented through **Variational Quantum Circuits (VQCs)**—against classical machine learning models such as **Support Vector Machines (SVMs)** and **Multilayer Perceptrons (MLPs)** for leukemia subtype classification (**AML vs. ALL**).  
-
----
-
-## 🧠 Project Overview
-- **Dataset:** Golub et al. (1999) leukemia gene expression dataset  
-- **Goal:** Compare the performance and efficiency of quantum vs. classical ML methods on small, high-dimensional biological data  
-- **Quantum Frameworks:** [Qiskit](https://qiskit.org) and [PennyLane](https://pennylane.ai)  
-- **Encodings Tested:**
-    - **Angle Encoding:** Maps each gene-expression value to a qubit rotation angle.  
-  - **Amplitude Encoding:** Encodes normalized gene-expression vectors into quantum state amplitudes.
+This repository contains the **Qiskit implementation** of our research project
 
 ---
 
